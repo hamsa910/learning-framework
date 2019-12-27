@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9593" started-at="2019-12-26T11:23:48Z" finished-at="2019-12-26T11:23:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9593" started-at="2019-12-26T11:23:48Z" finished-at="2019-12-26T11:23:58Z">
+      <class name="com.mercury.tours.Mercury_Sign_On_ExtentReport">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="startReport" is-config="true" duration-ms="384" started-at="2019-12-26T16:53:48Z" finished-at="2019-12-26T16:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="LaunchBrowser" duration-ms="7167" started-at="2019-12-26T16:53:49Z" finished-at="2019-12-26T16:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="getResult" is-config="true" duration-ms="13" started-at="2019-12-26T16:53:56Z" finished-at="2019-12-26T16:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LaunchBrowser status=SUCCESS method=Mercury_Sign_On_ExtentReport.LaunchBrowser()[pri:1, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="Sign_On_Success()[pri:2, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="Sign_On_Success" duration-ms="984" started-at="2019-12-26T16:53:56Z" finished-at="2019-12-26T16:53:57Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='logins']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I6Q45NM', ip: '10.117.189.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\user1\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd4c1f6cdbd4d42cfbb72511fd8470ee
+*** Element info: {Using=name, value=logins}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='logins']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I6Q45NM', ip: '10.117.189.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\user1\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd4c1f6cdbd4d42cfbb72511fd8470ee
+*** Element info: {Using=name, value=logins}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.mercury.tours.Mercury_Sign_On_ExtentReport.Sign_On_Success(Mercury_Sign_On_ExtentReport.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_On_Success -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="getResult" is-config="true" duration-ms="487" started-at="2019-12-26T16:53:57Z" finished-at="2019-12-26T16:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sign_On_Success status=FAILURE method=Mercury_Sign_On_ExtentReport.Sign_On_Success()[pri:2, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mercury.tours.Mercury_Sign_On_ExtentReport@6a4f787b]" name="closeBrowser" is-config="true" duration-ms="528" started-at="2019-12-26T16:53:57Z" finished-at="2019-12-26T16:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mercury.tours.Mercury_Sign_On_ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

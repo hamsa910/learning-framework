@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="1" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.mercury.tours.BatchExecution_smoke"/>
+      <class name="com.mercury.tours.Drag_and_Drop"/>
+      <class name="com.mercury.tours.hdfc_netbanking"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

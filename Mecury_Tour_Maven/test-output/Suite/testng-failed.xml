@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mercury.tours.Mercury_Sign_On_dropDown">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="Sign_on_Sucessful_login"/>
+        </methods>
+      </class> <!-- com.mercury.tours.Mercury_Sign_On_dropDown -->
+      <class name="com.mercury.tours.Drag_and_Drop">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.Drag_and_Drop -->
+      <class name="com.mercury.tours.hdfc_netbanking">
+        <methods>
+          <include name="hdfc_login"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.hdfc_netbanking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
